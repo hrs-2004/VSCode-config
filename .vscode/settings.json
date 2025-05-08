@@ -20,7 +20,7 @@
    "editor.fontVariations": false,
    "files.autoSaveDelay": 500,
    "terminal.integrated.fontFamily": "JetBrains Mono ",
-   "prettier.tabWidth": 22,
+   "prettier.tabWidth": 2,
    "editor.defaultFormatter": "esbenp.prettier-vscode",
    "notebook.defaultFormatter": "esbenp.prettier-vscode",
    "editor.smoothScrolling": true,
