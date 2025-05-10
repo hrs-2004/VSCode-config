@@ -20,7 +20,11 @@ curl -L -o .vscode/settings.json https://raw.githubusercontent.com/hrs-2004/VSCo
 curl -L -o .vscode/keybindings.json https://raw.githubusercontent.com/hrs-2004/VSCode-config/main/.vscode/keybindings.json
 
 # Download extensions.txt file
-curl -L -o extensions.txt https://raw.githubusercontent.com/hrs-2004/VSCode-config/main/extensions.txt
+curl -L -o .vscode/extensions.txt https://raw.githubusercontent.com/hrs-2004/VSCode-config/main/extensions.txt
+
+# Download extensions.txt file
+curl -L -o init.lua https://raw.githubusercontent.com/hrs-2004/VSCode-config/main/init.lua
+
 
 # Install the extensions (Uncomment the lines below to enable this part)
 # cat extensions.txt | xargs -n 1 code --install-extension
